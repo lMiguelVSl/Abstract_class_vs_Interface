@@ -1,4 +1,6 @@
-namespace DemoLibrary;
+using DemoLibrary.Abstract;
+
+namespace DemoLibrary.Implementations;
 
 public class SqlDataAccessAbstract : DataAccessAbstract
 {

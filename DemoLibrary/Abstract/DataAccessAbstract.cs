@@ -1,4 +1,4 @@
-namespace DemoLibrary;
+namespace DemoLibrary.Abstract;
 
 public abstract class DataAccessAbstract
 {
