@@ -8,6 +8,11 @@ public abstract class DataAccessAbstract
         return "LoadingConnectionString ABSTRACT done";
     }
 
+    public virtual string LoadConnectionStringVirtual()
+    {
+        return "VIRTUAL METHOD OVERRIDE";
+    }
+
     public abstract string LoadInformation();
     public abstract string SaveData();
 

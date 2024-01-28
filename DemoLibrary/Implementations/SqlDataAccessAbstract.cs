@@ -4,6 +4,10 @@ namespace DemoLibrary.Implementations;
 
 public class SqlDataAccessAbstract : DataAccessAbstract
 {
+    public override string LoadConnectionStringVirtual()
+    {
+        return "Base virtual method override";
+    }
     public override string LoadInformation()
     {
         Console.WriteLine("Loading Information sqlDA abstract");
