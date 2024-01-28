@@ -1,6 +1,6 @@
 ﻿namespace DemoLibrary;
 
-public class DataAccess
+public class IDataAccess
 {
     
 }
