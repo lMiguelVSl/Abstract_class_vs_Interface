@@ -6,11 +6,13 @@ public class SqlDataAccessAbstract : DataAccessAbstract
 {
     public override string LoadInformation()
     {
-        throw new NotImplementedException();
+        Console.WriteLine("Loading Information sqlDA abstract");
+        return "LoadInformation abstract done";
     }
 
     public override string SaveData()
     {
-        throw new NotImplementedException();
+        Console.WriteLine("");
+        return "SaveData abstract done";
     }
 }

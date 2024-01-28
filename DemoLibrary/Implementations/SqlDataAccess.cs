@@ -6,16 +6,19 @@ public class SqlDataAccess : IDataAccess
 {
     public string LoadConnectionString()
     {
-        throw new NotImplementedException();
+        Console.WriteLine("loading connection string INTERFACE");
+        return "SqlDataAccess INTERFACE connection string loaded";
     }
 
     public string LoadData()
     {
-        throw new NotImplementedException();
+        Console.WriteLine("loading data INTERFACE");
+        return "SqlDataAccess INTERFACE LoadData done";
     }
 
     public string SaveData()
     {
-        throw new NotImplementedException();
+        Console.WriteLine("Saving data INTERFACE");
+        return "SqlDataAccess INTERFACE SaveData done";
     }
 }
