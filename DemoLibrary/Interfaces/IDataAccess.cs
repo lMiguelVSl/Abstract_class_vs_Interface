@@ -1,6 +1,8 @@
-﻿namespace DemoLibrary;
+﻿namespace DemoLibrary.Interfaces;
 
-public class IDataAccess
+public interface IDataAccess
 {
-    
+    public string LoadConnectionString();
+    public string LoadData();
+    public string SaveData();
 }
